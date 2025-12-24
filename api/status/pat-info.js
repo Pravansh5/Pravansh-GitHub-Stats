@@ -19,6 +19,7 @@ export const RATE_LIMIT_SECONDS = 60 * 5; // 1 request per 5 minutes
  * @param {any} variables Fetcher variables.
  * @param {string} token GitHub token.
  * @returns {Promise<import('axios').AxiosResponse>} The response.
+ update done in vercel
  */
 const uptimeFetcher = (variables, token) => {
   return request(
